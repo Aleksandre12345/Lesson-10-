@@ -1,0 +1,74 @@
+/* Base classes */
+.flex {
+    display: flex;
+}
+
+/* HEADER */
+.header {
+    padding: 25px 0;
+}
+.container {
+    max-width: 1171px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header-wrapper {
+    justify-content: space-between;
+}
+.nav-li {
+    margin-right: 49px;
+}
+.nav-li:last-child {
+    margin-right: 0;
+}
+.icon {
+    margin-left: 30px;
+    display: none; 
+}
+
+
+/* სარეგისტრაციო ფორმა */
+
+.registration {
+    margin-top: 50px;
+    background-color: grey;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.input-wrapper {
+    flex-direction: column;
+}
+
+.forms {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.btn {
+    height: 30px;
+    width: 100px;
+    margin-top: 15px;
+    background-color: yellow;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.input-wrapper2::placeholder,
+.textarea-wrapper::placeholder {
+    color: blue;
+    font-size: 14px;
+}
+.input-wrapper2 {
+    color: red;
+    font-size: 15px;
+}
+.textarea-wrapper {
+    max-width: 700px;
+    height: 200px;
+    resize: none;
+    color: red;
+    font: 15px;
+}

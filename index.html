@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/40a8a75ad3.js" crossorigin="anonymous"></script>
+    <title> Forms & meta tags</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-wrapper flex">
+                <a href="#">Logo</a>
+                <div class="nav-wrapper flex">
+                   <nav class="navigation">
+                    <ul class="nav-ul flex">
+                        <li class="nav-li">
+                            <a href="#" class="nav-a"> HOME </a>
+                        </li>
+                        <li class="nav-li active">
+                            <a href="#" class="nav-a"> ABOUT US </a>
+                        </li>
+                        <li class="nav-li">
+                            <a href="#" class="nav-a"> OOUR SERVICES </a>
+                        </li>
+                        <li class="nav-li">
+                            <a href="#" class="nav-a"> TOUR PACKAGE </a>
+                        </li>
+                    </ul>
+                   </nav>
+                   <div class="icon">
+                   <i class="fa-solid fa-bars"></i>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="registration"> 
+        <form action="#" class="forms" method="post">
+            <div class="input-wrapper flex">
+                <label for="Fname"> Full Name </label>
+                <input class="input-wrapper2" type="text" id="Fname" name="Fname" placeholder="Type your name here" required>
+            </div>
+            <div class="input-wrapper flex">
+                <label for="password"> Password </label>
+                <input class="input-wrapper2" type="password" id="password" name="password" placeholder="Type your password here" required>
+            </div>
+            <div class="input-wrapper flex">
+                <label for="Email"> Email </label>
+                <input class="input-wrapper2" type="email" id="Email" name="Email" placeholder="Your Email adress" required>
+            </div>
+            <div class="input-wrapper flex">
+                <label for="Gender"> Gender </label>
+                <select name="Gender" id="Gender">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Other">Other..</option>
+                </select>
+            </div>
+            <div class="input-wrapper flex">
+                <label for=""> Review </label>
+                <textarea class="textarea-wrapper" name="" id="" placeholder="your review.."></textarea>
+            </div>
+            <div>
+                <input type="radio" id="male" name="gender">
+                <label for="female"> Male</label>
+            </div>
+            <div>
+                <input type="radio" id="female" name="gender">
+                <label for="female"> Female</label>
+            </div>
+            <div>
+                <input type="checkbox" id="music" name="hobbymusic">
+                <label for="music"> Music </label>
+            </div>
+            <div>
+                <input type="checkbox" id="dance" name="hobbydance">
+                <label for="dance"> Dance </label>
+            </div>
+            <button class="btn" type="submit"> Submit </button>
+        </form>
+    </section>
+</body>
+</html>
